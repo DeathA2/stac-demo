@@ -97,10 +97,13 @@
               }
             },
             "onPressed": {
-              "actionType": "navigate",
-              "assetPath": "assets/jsons/home.json",
-              "navigationStyle": "push"
-            },
+  "actionType": "navigate",
+  "request": {
+    "url": "https://example.com/api",
+    "method": "get"
+  },
+  "navigationStyle": "push"
+},
             "child": {
               "type": "padding",
               "padding": {
