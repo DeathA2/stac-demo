@@ -133,23 +133,7 @@
             "type": "sizedBox",
             "height": 16
           },
-          {
-            "type": "align",
-            "alignment": "center",
-            "child": {
-              "type": "textButton",
-              "onPressed": {},
-              "child": {
-                "type": "text",
-                "data": "Forgot password?",
-                "style": {
-                  "fontSize": 15,
-                  "fontWeight": "w500",
-                  "color": "#4745B4"
-                }
-              }
-            }
-          },
+        
           {
             "type": "sizedBox",
             "height": 8
